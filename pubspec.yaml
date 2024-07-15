@@ -1,0 +1,51 @@
+name: you_app_test
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Utility Packages
+  http: ^1.1.0
+  provider: ^6.0.0
+  intl: ^0.17.0
+
+  # Icons
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.2
+  toastification: ^2.0.0
+  shared_preferences: ^2.2.3
+  file_picker: ^8.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  #Test
+  mockito: ^5.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  #--------------- LOCAL ASSETS ------------------#
+  assets:
+    - assets/icons/
